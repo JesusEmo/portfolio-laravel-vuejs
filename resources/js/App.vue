@@ -1,8 +1,9 @@
 <template>
-  <h1 class="text-xl font-bold text-blue-600">¡Hola desde Vue + Laravel!</h1>
+<Navbar />
 </template>
 
 <script setup>
+import Navbar from './components/Navbar.vue';
 </script>
 
 <style>
